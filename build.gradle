@@ -3,14 +3,14 @@ apply plugin: 'jacoco'
 apply plugin: 'application'
 
 
-mainClassName = 'CT417_Assignment1_2.Main'
+mainClassName = 'CT417_Assignment1.Student'
 
 repositories {
     mavenCentral()
-    maven {url "https://jitpack.io"}
 }
 
 dependencies {
     testImplementation     'junit:junit:4.13'
-    implementation 'com.github.mark-fahy:CT417_A1'
+    implementation 'org.terasoluna.gfw:terasoluna-gfw-jodatime:5.7.0.RELEASE'
+
 }
